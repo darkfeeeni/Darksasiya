@@ -22,7 +22,7 @@ Feenix-MD Multi Device Whatsapp Bot.
 
 Fork The Repo
     <br>
-<a href="https://github.com/Darksasiya/Feenix-MD/fork"><img title="Feenix-MD" src="https://img.shields.io/badge/FORK Phoenix MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/Darksasiya/Feenix-MD/fork"><img title="Feenix-MD" src="https://img.shields.io/badge/FORK feenix MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 #### Scan QR Code
 
