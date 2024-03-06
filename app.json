@@ -1,0 +1,76 @@
+{
+  "name": "Feenix-MD",
+  "version": "1.0.0",
+  "description": "Feenix-MD Simple WhatsApp Bot",
+  "logo": "https://telegra.ph/file/1c14ab0e280632ac32b1a.jpg",
+  "keywords": ["whatsapp", "bot", "md", "multi-device", "feenix", "feenix-MD", "wabot", "termux-bot", "sc-bot"],
+  "repository": "https://github.com/Darksasiya/Feenix-MD",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Enter Your Session ID",
+      "required": true
+    },
+    "HANDLERS": {
+      "description": "Enter Prefix For Commands",
+      "required": false,
+      "value": ","
+    },
+    "SUDO": {
+      "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
+      "required": false,
+      "value": "94786254229"
+    },
+    "STICKER_DATA": {
+      "description": "Enter Your Sticker PackName And Author Name",
+      "required": false,
+      "value": "🎯𝙵𝙴𝙴𝙽𝙸𝚇-𝙼𝙳;𝙳𝙰𝚁𝙺 𝚂𝙰𝚂𝙸𝚈𝙰☘️"
+    },
+    "OWNER_NAME": {
+      "description": "Enter Your Owner Name",
+      "required": false,
+      "value": "Dark Sasiya"
+    },
+    "OWNER_NUMBER": {
+      "description": "Enter Your Owner Number",
+      "required": false,
+      "value": "94786254229"
+    },
+    "BOT_NAME": {
+      "description": "Enter Your Bot Name",
+      "required": false,
+      "value": "Feenix-MD"
+    },
+    "WORK_TYPE": {
+      "description": "Enter Your Mode Type public For Public Otherwise Type private",
+      "required": false,
+      "value": "public"
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Enter Your Heroku App Name Same As Above You Entered",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Enter Your Heroku Account Api Key. Get It From https://dashboard.heroku.com/account",
+      "required": true
+    },
+    "AUTO_REACT": {
+  "description": "If You Want To React Automatically To Messages Type true. Otherwise, Type false",
+  "value": "false",
+  "required": false
+   },
+    "AUTO_STATUS_READ": {
+      "description": "If You Want To View Status Automatically, Type true. Otherwise, Type false",
+      "required": false,
+      "value": "true"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
