@@ -1,8 +1,8 @@
 {
   "name": "FEENIX-MD",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/90ecbecc7dcfb93ede0fa.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "Sithuwa Bot", "sithuwa","SITHUWA-MD","theme bot","multi device","baileys","Sithum Kalhara"],
+  "logo": "https://telegra.ph/file/bd4d044dd99c37afb0321.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "Sithuwa Bot", "sasiya","FEENIX-MD","theme bot","multi device","baileys","Dark Sasiya"],
   "success_url": "/",
   "stack": "container",
 "env": {
