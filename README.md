@@ -33,6 +33,11 @@ Fork The Repo
 
 ## Feenix-MD Deploy Method
 
+> DEPLOY ON HEROKU<br>
+
+◍ Copy This Url, Put Like This <template_link><your_github_link>
+
+      https://heroku.com/deploy?template=
 
 ### Deploy Codespace
 
